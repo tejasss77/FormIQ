@@ -1,0 +1,51 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Databases & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+formiq.db
+backend/formiq.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+backend/.venv/
+backend/models_data/pose_landmarker.task
+*.egg-info/
+.pytest_cache/
+
+# Node & Frontend Build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Project Reports & Local Document Generation (Do not push to GitHub)
+FORMIQ_Project_Report*
+*.docx
+*.pdf
+build_*.py
+generate_*.py
+make_report_docx.py
+test_expand.py
+parul_logo_*
+Pasted *
+*.textClipping
+/*.png
+/*.jpg
+/*.jpeg
